@@ -57,7 +57,7 @@ def main():
     with st.sidebar:
         st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg")
         st.title("UVS Senegal")
-        st.image("./style/data.png")
+        st.image("./style/data.PNG")
         choice = option_menu("Application AUTOML UVS SENEGAL", ["Upload","Profiling AutoML","Plots","Model Building", "Analyser AutoML","metriques","Exporter"],
                     icons =['upload file',
                     "bi bi-binoculars",
