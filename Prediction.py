@@ -26,8 +26,7 @@ import extra_streamlit_components as stx
 #st.markdown('<style>' + open('./style/style.css').read() + '</style>', unsafe_allow_html=True)
 with st.sidebar:
     st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg")
-    st.sidebar.image(img, width=400)
-    st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg")
+    st.sidebar.image(width=400)
     choose = option_menu("Application de detection Paludisme", ["About", "Prediction Paludisme","Enregistrer Patient","Contact"],
                     icons=['house',
                     'bi bi-graph-down-arrow',
