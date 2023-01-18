@@ -67,8 +67,8 @@ def main():
                     "bi bi-hourglass-split",
                     'download'],
                     menu_icon="app-indicator", default_index=0,
-                        styles={
-        "container": {"padding": "5!important", "background-color": "#26c0f7 "},
+                    styles={
+        "container": {"padding": "5!important", "background-color": "#26c0f7 ", "font-size": "20px"},
         "icon": {"color": "black", "font-size": "13px"},
         "nav-link": {"font-size": "13px", "text-align": "left", "margin":"0px", "--hover-color": "#f0a80d"},
         "nav-link-selected": {"background-color": "#2ad509"},
