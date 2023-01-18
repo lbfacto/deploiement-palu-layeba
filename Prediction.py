@@ -51,7 +51,7 @@ if (choose == "About"):
         st.markdown('<p class="font">A propos du createur</p>',
                     unsafe_allow_html=True)
     with col2:               # To display brand log
-        st.image(logo, width=150)
+        st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg",width=150)
     st.write("Abdoulaye BA etudiant en MASTER 2 BIG DATA UNIVERSITE DU SENEGAL, Aussi ingenieur des traveaux informatiques à l'hopaital aristide le dantec et Administrateur Reseaux et sytemes d'information et gestionnaire de parc informatique le lien du repos sur github est disponibles sur ce lien: https://github.com/lbfacto/A_BA_UVS_ProjetPaludisme")
     st.write("Ce projet est realiser avec Dr Oumy Niass de l'universite virtuelle du senegal")
     st.write("Dans le module de cas industrielle sur des données reels de patient dans une base de données avec les ")
