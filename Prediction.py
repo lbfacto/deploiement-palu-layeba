@@ -23,7 +23,7 @@ import extra_streamlit_components as stx
 
 
 
-logo = Image.open(r'C:/Users/dell/Desktop/logoUvs/uvs.JPEG')
+logo = Image.open(r'C:/projet/deploiementPaluStreamlit/images/uvs.JPEG')
 #st.markdown('<style>' + open('./style/style.css').read() + '</style>', unsafe_allow_html=True)
 with st.sidebar:
     img = Image.open("C:/Users/dell/Desktop/logoUvs/uvs.JPEG")
@@ -43,7 +43,7 @@ with st.sidebar:
     "nav-link-selected": {"background-color": "#02ab21"},
 }
 )
-logo = Image.open(r'C:/Users/dell/Desktop/logoUvs/uvs.JPEG')
+logo = Image.open(r'C:/projet/deploiementPaluStreamlit/images/uvs.JPEG')
 #profile = Image.open(r'C:\Users\13525\Desktop\medium_profile.png')
 if (choose == "About"):
     col1, col2 = st.columns( [0.9, 0.4])
