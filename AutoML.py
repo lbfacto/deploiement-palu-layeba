@@ -18,13 +18,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import train_test_split
 from sklearn import svm
 from sklearn.metrics import accuracy_score
-from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_curve, auc
+from sklearn.metrics import accuracy_score,precision_score, recall_score, roc_curve, auc
 # Data Viz Pkg
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use("Agg")
 import seaborn as sns
-from seaborn_analyzer import CustomPairPlot
 import seaborn as sns
 # ML Packages
 from sklearn import model_selection
@@ -51,7 +50,6 @@ st.title(" 💻 Analyse automatisée Des Données 📊 ")
 
 
 
-@st.cache(allow_output_mutation=True, hash_funcs={"_thread.RLock": lambda _: None})
     # Then, drop the column as usual.
 @profile
 def main():
