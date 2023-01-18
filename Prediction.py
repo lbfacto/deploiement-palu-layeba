@@ -40,8 +40,6 @@ with st.sidebar:
     "nav-link-selected": {"background-color": "#02ab21"},
 }
 )
-#logo = Image.open(r'C:/projet/deploiementPaluStreamlit/images/uvs.JPEG')
-#profile = Image.open(r'C:\Users\13525\Desktop\medium_profile.png')
 st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg")      
 if (choose == "About"):
     col1, col2 = st.columns( [0.9, 0.4])
