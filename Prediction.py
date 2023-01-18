@@ -22,7 +22,7 @@ import extra_streamlit_components as stx
 
 
 
-        
+
 #st.markdown('<style>' + open('./style/style.css').read() + '</style>', unsafe_allow_html=True)
 with st.sidebar:
     st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg")
@@ -35,12 +35,12 @@ with st.sidebar:
                     menu_icon="app-indicator", default_index=0,
                     styles={
     "container": {"padding": "5!important", "background-color": "#FF9333"},
-    "icon": {"color": "orange", "font-size": "30px"},
-    "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#33B8FF"},
+    "icon": {"color": "orange", "font-size": "25px"},
+    "nav-link": {"font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "#33B8FF"},
     "nav-link-selected": {"background-color": "#02ab21"},
 }
 )
-st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg")      
+st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg")
 if (choose == "About"):
     col1, col2 = st.columns( [0.9, 0.4])
 
