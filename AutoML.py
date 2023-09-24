@@ -264,7 +264,7 @@ def main():
 
                 #nos plots
             if type_of_plot:
-                    cust_plot= df[selected_columns_names].plot(kind=king)
+                    cust_plot= df[selected_columns_names].plot(kind=kind)
                     st.write(cust_plot)
                     st.pyplot()
 
