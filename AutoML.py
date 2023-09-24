@@ -7,12 +7,9 @@ import pandas as pd
 from streamlit_pandas_profiling import st_profile_report
 from streamlit_option_menu import option_menu
 from memory_profiler import profile
-
-
 import os
 import pandas as pd
 import numpy as np
-
 from sklearn.metrics import accuracy_score, recall_score, precision_score, roc_auc_score, roc_curve
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import train_test_split
@@ -46,7 +43,7 @@ git.markdown("[![Foo](https://img.icons8.com/material-outlined/48/000000/github.
 git.info(" 👆 Récupérez l'intégralité du code ici")
 
 
-st.title(" 💻 Analyse automatisée Des Données 📊 ")
+st.title(" 💻 Analyse automatisée Des Données de sur le paludisme 📊 ")
 
 
 
