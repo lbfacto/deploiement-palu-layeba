@@ -241,7 +241,7 @@ def main():
 
             all_columns_names = df1.columns.tolist()
             type_of_plot = st.selectbox("Select Type of Plot",["area","bar","line","hist","box","kde"])
-            selected_columns_names = st.multiselect("Select Columns To Plot",all_columns_names)
+            selected_columns_names = st.multiselect("Select Columns To Plot",df1)
 
             
 
