@@ -239,10 +239,13 @@ def main():
 
             # visualisation
 
-            all_columns_names = df.columns.tolist()
+            # all_columns_names = df.columns.tolist()
+
+            all_columns_names = df
             type_of_plot = st.selectbox("Select Type of Plot",["area","bar","line","hist","box","kde"])
             selected_columns_names = st.multiselect("Select Columns To Plot",all_columns_names)
 
+            
 
             if st.button("Generate Plot"):
                 st.success("Generating Customizable Plot of {} for {}".format(type_of_plot,selected_columns_names))
