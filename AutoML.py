@@ -229,12 +229,12 @@ def main():
 
         data = st.file_uploader("Upload a Dataset", type=["csv", "txt", "xls"])
         if data is not None:
-            df = pd.read_csv(data)
-            st.dataframe(df.head())
+            df1 = pd.read_csv(data)
+            st.dataframe(df1.head())
 
 
             if st.checkbox("Show Value Counts"):
-                st.write(df.iloc[:,-1].value_counts().plot(kind='bar'))
+                st.write(df1.iloc[:,-1].value_counts().plot(kind='bar'))
                 st.pyplot()
 
             # visualisation
@@ -250,21 +250,21 @@ def main():
 
                 # Plot By Streamlit
             if type_of_plot == 'area':
-                    cust_data = df[selected_columns_names]
+                    cust_data = df1[selected_columns_names]
                     st.area_chart(cust_data)
 
             if type_of_plot == 'bar':
-                    cust_data = df[selected_columns_names]
+                    cust_data = df1[selected_columns_names]
                     st.bar_chart(cust_data)
 
             if type_of_plot == 'line':
-                    cust_data = df[selected_columns_names]
+                    cust_data = df1[selected_columns_names]
                     st.line_chart(cust_data)
 
 
                 #nos plots
             if type_of_plot:
-                    cust_plot= df[selected_columns_names].plot(kind=kind)
+                    cust_plot= df1[selected_columns_names].plot(kind=kind)
                     st.write(cust_plot)
                     st.pyplot()
 
