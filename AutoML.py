@@ -40,7 +40,7 @@ st.set_page_config(layout="wide", page_title=" 💻📊 Analyse de Données UVS 
 st.markdown('<style>' + open('./style/style.css').read() + '</style>', unsafe_allow_html=True)
 # git, linkedin = st.columns(2)
 # git.markdown("[![Foo](https://img.icons8.com/material-outlined/48/000000/github.png)](https://github.com/lbfacto/A_BA_UVS_ProjetPaludisme)")
-git.info(" 👆 Récupérez l'intégralité du code ici")
+# git.info(" 👆 Récupérez l'intégralité du code ici")
 
 
 st.title(" 💻 Analyse automatisée Des Données de sur le paludisme 📊 ")
