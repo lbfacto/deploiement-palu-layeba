@@ -269,7 +269,7 @@ def main():
                     st.pyplot()
 
     elif choice == 'Analyser AutoML':
-        st.header("Analyse de la qualité et exploration des données")
+        st.header("Analyse de la qualité et exploration les données")
         profile_df = df.profile_report()
 
 #aut ml pour profiler les donnees
