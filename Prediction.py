@@ -97,7 +97,7 @@ elif (choose =="Prediction Paludisme"):
         else:
             palu_diagnosis= 'Antigene negatif personne n_est pas atteint du paludisme'
         st.success(palu_diagnosis)
-if choose == "Enregistrer Patient":
+if (choose == "Enregistrer Patient"):
 
     conn = sqlite3.connect('dbuvs.db')
     st.markdown(""" <style> .font {
@@ -150,9 +150,15 @@ if choose == "Enregistrer Patient":
             st.success('Donner Patient enregistrer')
     conn.close()
 
+if (choose == "AutoML"):
+    st.title(  "Application automatise d'analyse de donnee" )
+    st.write("Abdoulaye BA etudiant en Master 2 Big Data Analytics Universite Numerique Cheikh Hamidou KANE Ex(UVS), Aussi ingenieur des traveaux informatiques à l'hopaital aristide le dantec et Administrateur Reseaux et sytemes d'information et gestionnaire de parc informatique le lien du repos sur github est disponibles sur ce lien:https://github.dev/lbfacto/deploiement-palu-layeba ")
+    st.write("Ce projet est realiser avec Dr Oumy Niass de l'universite virtuelle du senegal")
+    st.write("Dans le module de cas industrielle sur des données reels de patient dans une base de données avec les ")
+    st.write("prelevements de differenetes sujet et diverses criteres sont eablies selon des cas de prevelemenet differentes sur des barometre divers")
+    st.write("En outre il a ete fait et concue une application pour faire des prediction selon le type de donnes a notre disposition qui va afficher les resultat de la personne selon son antigene")
 
-
-elif choose == "Contact":
+elif (choose == "Contact"):
     st.markdown(""" <style> .font {
     font-size:35px ; font-family: 'Cooper Black'; color: #FF9633;}
     </style> """, unsafe_allow_html=True,)
