@@ -56,7 +56,7 @@ if (choose == "About"):
     st.write("Ce projet est realiser avec Dr Oumy Niass de l'universite virtuelle du senegal")
     st.write("Dans le module de cas industrielle sur des données reels de patient dans une base de données avec les ")
     st.write("prelevements de differenetes sujet et diverses criteres sont eablies selon des cas de prevelemenet differentes sur des barometre divers")
-    st.write("En outre il a ete fait et concue une application pour faire des prediction selon le type de donnes a notre disposition qui va afficher le resiltat de la personne")
+    st.write("En outre il a ete fait et concue une application pour faire des prediction selon le type de donnes a notre disposition qui va afficher les resultat de la personne selon son antigene")
 #st.image(profile, width=700 )rue
 #analyse des donnes
 
