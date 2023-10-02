@@ -52,7 +52,7 @@ if (choose == "About"):
                     unsafe_allow_html=True)
     with col2:               # To display brand log
         st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg",width=150)
-    st.write("Abdoulaye BA etudiant en MASTER 2 BIG DATA UNIVERSITE DU SENEGAL, Aussi ingenieur des traveaux informatiques à l'hopaital aristide le dantec et Administrateur Reseaux et sytemes d'information et gestionnaire de parc informatique le lien du repos sur github est disponibles sur ce lien: https://github.com/lbfacto/A_BA_UVS_ProjetPaludisme")
+    st.write("Abdoulaye BA etudiant en MASTER 2 BIG DATA UNIVERSITE DU SENEGAL, Aussi ingenieur des traveaux informatiques à l'hopaital aristide le dantec et Administrateur Reseaux et sytemes d'information et gestionnaire de parc informatique le lien du repos sur github est disponibles sur ce lien:https://github.dev/lbfacto/deploiement-palu-layeba ")
     st.write("Ce projet est realiser avec Dr Oumy Niass de l'universite virtuelle du senegal")
     st.write("Dans le module de cas industrielle sur des données reels de patient dans une base de données avec les ")
     st.write("prelevements de differenetes sujet et diverses criteres sont eablies selon des cas de prevelemenet differentes sur des barometre divers")
