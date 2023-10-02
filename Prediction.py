@@ -26,12 +26,15 @@ import extra_streamlit_components as stx
 #st.markdown('<style>' + open('./style/style.css').read() + '</style>', unsafe_allow_html=True)
 with st.sidebar:
     st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg")
-    choose = option_menu("Application de detection Paludisme", ["About", "Prediction Paludisme","Enregistrer Patient","Contact"],
+    choose = option_menu("Application de detection Paludisme", ["About", "Prediction Paludisme","Enregistrer Patient","Contact", "AutoML"],
                     icons=['house',
                     'bi bi-graph-down-arrow', 
                     'bi bi-droplet-fill',
                     'bi bi-file-person-fill',
-                    'bi bi-file-person-fill'],
+                    'bi bi-file-person-fill', 
+                    '<svg class="bi" ... role="img" aria-label="Tools">
+  <use xlink:href="bootstrap-icons.svg#tools"/>
+</svg>'],
                     menu_icon="app-indicator", default_index=0,
                     styles={
     "container": {"padding": "5!important", "background-color": "#FF9333"},
