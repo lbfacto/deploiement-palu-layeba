@@ -69,7 +69,6 @@ elif (choose =="Prediction Paludisme"):
 
     Age = st.text_input('Age')
 
-
     ratio =st.text_input('ratio')
 
     G6PD = st.text_input('G6PD')
@@ -145,7 +144,7 @@ if choose == "Enregistrer Patient":
         submitted = st.form_submit_button('Submit')
 
         if submitted:
-            c.execute("INSERT INTO malades VALUES(?,?,?,?,?,?,?,?,?,?)", (Nom, Age,Prenom, Email, Telephone,Adresse, Resultat, NomMedcin,Avis,date))
+            c.execute("INSERT INTO malades VALUES(?,?,?,?,?,?,?,?,?,?)", (Nom, Prenom,Age, Email, Telephone,Adresse, Resultat, NomMedcin,Avis,date Rendez-vous))
             conn.commit()
             st.success('Donner Patient enregistrer')
     conn.close()
