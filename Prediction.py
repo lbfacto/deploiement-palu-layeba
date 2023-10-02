@@ -20,10 +20,10 @@ import extra_streamlit_components as stx
 # Create a connection to the database
 
 
-@profile
 st.set_page_config(layout="wide", page_title=" 💻📊 Prediction Antigene ")
 st.markdown('<style>' + open('./style/style.css').read() + '</style>', unsafe_allow_html=True)
 
+@profile
 #st.markdown('<style>' + open('./style/style.css').read() + '</style>', unsafe_allow_html=True)
 with st.sidebar:
     st.image("https://www.campus-teranga.com/site/images/actualite/20210804-610aa19bbdf57.jpg")
