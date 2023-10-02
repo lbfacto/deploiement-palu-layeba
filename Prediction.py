@@ -131,7 +131,7 @@ if choose == "Enregistrer Patient":
     #st.write('Please help us improve!')
         st.title('Partie patient')
 
-        Nom=st.text_input(label='Entrer Nom') #Collect user feedback
+        Nom=st.text_input(label='Nom') #Collect user feedback
         Prenom=st.text_input(label=' Prenom') #Collect user feedback
         Age=st.text_input(label='Entrer Age') #Collect user feedback
         Email=st.text_input(label='Entrer Email') #Collect user feedback
