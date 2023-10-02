@@ -32,9 +32,7 @@ with st.sidebar:
                     'bi bi-droplet-fill',
                     'bi bi-file-person-fill',
                     'bi bi-file-person-fill', 
-                    '<svg class="bi" width="32" height="32" fill="currentColor">
-  <use xlink:href="bootstrap-icons.svg#toggles"/>
-</svg>'],
+                    'bi bi-server'],
                     menu_icon="app-indicator", default_index=0,
                     styles={
     "container": {"padding": "5!important", "background-color": "#FF9333"},
