@@ -132,8 +132,8 @@ if choose == "Enregistrer Patient":
         st.title('Partie patient')
 
         Nom=st.text_input(label='Entrer Nom') #Collect user feedback
-        Age=st.text_input(label='Entrer Age') #Collect user feedback
         Prenom=st.text_input(label=' Prenom') #Collect user feedback
+        Age=st.text_input(label='Entrer Age') #Collect user feedback
         Email=st.text_input(label='Entrer Email') #Collect user feedback
         Telephone=st.text_input(label='Entrer Telephone') #Collect user feedback
         Adresse=st.text_input(label='Entrer Adresse') #Collect user feedback
@@ -144,7 +144,7 @@ if choose == "Enregistrer Patient":
         submitted = st.form_submit_button('Submit')
 
         if submitted:
-            c.execute("INSERT INTO malades VALUES(?,?,?,?,?,?,?,?,?,?)", (Nom, Prenom,Age, Email, Telephone,Adresse, Resultat, NomMedcin,Avis,date Rendez-vous))
+            c.execute("INSERT INTO malades VALUES(?,?,?,?,?,?,?,?,?,?)", (Nom, Prenom,Age, Email, Telephone,Adresse, Resultat, NomMedcin,Avis,date))
             conn.commit()
             st.success('Donner Patient enregistrer')
     conn.close()
